@@ -25,11 +25,12 @@ class StatsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let ballsCount = GameData.mainData().ballsBusted
-        let bricksCount = GameData.mainData().bricksBusted
         
-        ballsBusted?.text = "balls busted: \(ballsCount)"
-        bricksBusted?.text = "bricks busted: \(bricksCount)"
+//        let ballsCount = GameData.mainData().ballsBusted
+//        let bricksCount = GameData.mainData().bricksBusted
+//        
+//        ballsBusted?.text = "balls busted: \(ballsCount)"
+//        bricksBusted?.text = "bricks busted: \(bricksCount)"
 
     }
 

@@ -42,7 +42,7 @@ class GameViewController: UIViewController, UIDynamicAnimatorDelegate, UICollisi
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        playSound("KnightRider")
+//        playSound("KnightRider")
         
         nextLevelButton.setTitle("next level", forState: .Normal)
         nextLevelButton.frame = CGRect(x: 0, y: 0, width: 100, height: 100)
